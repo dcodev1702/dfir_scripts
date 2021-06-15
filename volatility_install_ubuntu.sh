@@ -24,14 +24,12 @@ install_volatility () {
   git clone https://github.com/volatilityfoundation/volatility.git
 
   echo "Installing pip packages required for volatility"
-
   sudo python2 -m pip install distorm3==3.4.4 pycrypto pytz yara openpyxl ujson
 
   # This is VERY important, volatility will BREAK under Ubuntu 19 or greater
   sudo ln -s /usr/local/lib/python2.7/dist-packages/usr/lib/libyara.so /usr/lib/libyara.so
 
   echo "Volatility pre-req's have been met, time to install volatility (/usr/loca/bin)"
-
   cd volatility
   sudo python2.7 setup.py install
   
