@@ -30,14 +30,12 @@ install_volatility () {
   # This is VERY important, volatility will BREAK under Ubuntu 19 or greater
   sudo ln -s /usr/local/lib/python2.7/dist-packages/usr/lib/libyara.so /usr/lib/libyara.so
 
-
   echo "Volatility pre-req's have been met, time to install volatility (/usr/loca/bin)"
 
   cd volatility
   sudo python2.7 setup.py install
-
-  cd ../
-  sudo rm -rf volatility
+  
+  sudo rm -rf ../volatility
 
   echo "Thank you for playing 'Install Volatility for 1000', lets rip some memory apart!"
 }
