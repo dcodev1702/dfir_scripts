@@ -9,7 +9,7 @@
 
 install_volatility () {
 
-  sudo add-apt-repository universe
+  sudo add-apt-repository universe -y
   sudo apt update
 
   sudo apt install pcregrep libpcre++-dev python2-dev python-setuptools build-essential yara zip git -y
