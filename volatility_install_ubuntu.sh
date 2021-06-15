@@ -2,7 +2,7 @@
 
 ###########################################
 # Author: @2bitsend0xdea
-# Date: 16 JUN 2021
+# Date: 15 JUN 2021
 # Usage: sudo ./volatility_install.sh
 # Req: Written for Ubuntu Linux
 ############################################
