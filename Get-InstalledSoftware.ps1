@@ -1,3 +1,9 @@
+<# 
+
+Author: Adam-The-Automator
+Source: https://adamtheautomator.com/powershell-list-installed-software/
+
+#>
 function Get-InstalledSoftware {
     <#
 	.SYNOPSIS
